@@ -40,6 +40,7 @@ Testes realizados usando configuração Junit com a classe Runner.
 
 ![runner1.PNG](src/Imagens/runner1.PNG)
 ![Junit1.PNG](src/Imagens/Junit1.PNG)
+![tag2.PNG](src/Imagens/tag2.PNG)
 
 <p>
     Testes realizados pela configuração do Cucumber.
