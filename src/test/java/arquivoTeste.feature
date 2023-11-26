@@ -17,9 +17,9 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-  Feature: Cliente faz saque de dinheiro como um cliente,
-    eu gostaria de sacar dinheiro em caixa eletrônico,
-    para que eu não tenha que esperar em uma fila do banco.
+Feature: Cliente faz saque de dinheiro como um cliente,
+  eu gostaria de sacar dinheiro em caixa eletrônico,
+  para que eu não tenha que esperar em uma fila do banco.
 
   @tag1
   Scenario: Cliente especial faz saque de dinheiro com saldo negativo
@@ -34,4 +34,6 @@
     When solicitar um saque de 200 reais
     Then não deve efetuar o saque e deve retornanar a mensagem saldo insuficiente
     Examples:
-      |  |
+      | Nome   | Valor | Resultado |
+      | teste1 | -100  | Aceito    |
+      | teste2 | -200  | Negado    |
